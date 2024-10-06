@@ -158,7 +158,7 @@
 
   <!-- External repos -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="evo" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="pe-gitlab" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="xir" />
   <project path="external/guice" name="external_guice" remote="evo" />
   <project path="external/libcxx" name="external_libcxx" remote="evo" />
   <project path="external/lottie" name="external_lottie" remote="evo" />
