@@ -8,7 +8,7 @@
            fetch="https://gitlab.com" />
 
   <remote  name="evo"
-           fetch="https://github.com/Evolution-X"
+           fetch="https://github.com/Evolution-X-AOSP"
            revision="refs/heads/elle" />
 
   <remote  name="evo-devices"
