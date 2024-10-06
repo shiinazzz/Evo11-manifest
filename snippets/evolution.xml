@@ -18,6 +18,10 @@
   <remote  name="evo-gitlab"
            fetch="https://gitlab.com/EvoX"
            revision="refs/heads/elle" />
+           
+  <remote  name="akito"
+           fetch="https://github.com/RealAkito"
+           revision="refs/heads/elle" />
 
   <remote  name="github/hentaiOS"
            fetch="https://github.com/hentaiOS"
@@ -169,8 +173,7 @@
   <project path="art" name="art" remote="evo" />
   <project path="bionic" name="bionic" remote="evo" />
   <project path="bootable/recovery" name="bootable_recovery" remote="evo" />
-  <project path="build/make" name="build" fetch="https://github.com/RealAkito"
-           revision="refs/heads/elle" >
+  <project path="build/make" name="build" remote="akito" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
